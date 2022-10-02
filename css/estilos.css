@@ -418,12 +418,16 @@ section img{
 }
  .card img{
 	width: 100%;
+    
+    margin-bottom: 10px;
 } 
 .producto img{
     width: 80%;
     padding: 10px; 
     margin: auto;
-  display: block;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
 .card .contenido-card{
 	padding: 10px;
