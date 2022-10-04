@@ -79,9 +79,8 @@ body{
 .intro{    
     font-size: 20px;     
     background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 10px 10px 10px;
     text-align: center;
     display: flex;  
@@ -105,13 +104,6 @@ section{
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
     border: none;
 }
-/* .contenido div {
-    text-align: center;
-    padding: 10px;
-    top: 10px;
-    display: grid;
-    grid-template-columns: 2fr;
-} */
 .contenido div h5{
     text-align: center;
     padding: 10px;
@@ -132,11 +124,6 @@ section{
     background-color: #e07792;
 }
 
-section img{
-    width: 30%;
-    padding: 20px;
-    align-items: center;
-}
 /* personas */
 #personas {
     gap: 70px;
@@ -306,14 +293,8 @@ section img{
     padding: 20px 20px;
     border-radius: 5px;
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
-}
-.intro-3 div{
-    padding: 20px 40px;
-    background-color: #EFDBDB;
-    border: 5px solid white;
-    
+}   
 
-}
 #corporal{
     padding: 10px 10px;
     text-align: justify;
@@ -418,7 +399,6 @@ section img{
 }
  .card img{
 	width: 100%;
-    
     margin-bottom: 10px;
 } 
 .producto img{
@@ -522,12 +502,6 @@ section img{
     outline: 1px solid #c46e82;
 }
 
-.input-box label,
-.gender-title h6 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #000000c0;
-}
 
 .input-box input::placeholder {
     color: #000000be;
@@ -578,7 +552,7 @@ section img{
     font-weight: 600;
     color: #000000c0;
 }
-.continue-button button {
+.enviar-button button {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
@@ -588,11 +562,11 @@ section img{
     cursor: pointer;
 }
 
-.continue-button button:hover {
+.enviar-button button:hover {
     background-color:#e8aecd;;
 }
 
-.continue-button button a {
+.enviar-button button a {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
