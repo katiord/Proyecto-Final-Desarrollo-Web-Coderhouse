@@ -8,6 +8,11 @@
   font-family: "Red Hat Display", sans-serif;
 }
 
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 a {
   text-decoration: none;
   color: #49332d;
@@ -99,6 +104,7 @@ body {
 .intro {
   font-size: 20px;
   background: #ee9ca7;
+  width: 100%;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffdde1, #ee9ca7);
@@ -144,31 +150,35 @@ section {
 }
 
 /* personas */
-#personas {
+#servicios {
   gap: 70px;
   margin-top: 20px;
   padding: 20px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   background-color: #ffdde1;
 }
-#personas img {
+#servicios p {
+  text-align: justify;
+}
+#servicios img {
   border-radius: 100%;
   width: 300px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-#personas div {
+#servicios div {
   width: 33%;
 }
-#personas div h4 {
+#servicios div h4 {
   padding: 20px 20px;
   color: #533847;
   font-size: 20px;
   margin: 5px 0px;
+  text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   section, .contenido {
     flex-direction: column;
     align-items: center;
@@ -197,19 +207,19 @@ section {
   .contenido div p, .contenido div a {
     font-size: 10px;
   }
-  #personas {
+  #servicios {
     flex-direction: column;
     align-items: center;
   }
-  #personas img {
+  #servicios img {
     width: 150px;
   }
-  #personas div h4 {
+  #servicios div h4 {
     font-size: 15px;
     padding: 10px;
     margin: 0;
   }
-  #personas div p {
+  #servicios div p {
     font-size: 10px;
     text-align: justify;
     padding: 0;
@@ -222,7 +232,7 @@ section {
     margin-top: 20px;
   }
 }
-@media (max-width: 700px) and (max-width: 400px) {
+@media (max-width: 800px) and (max-width: 400px) {
   section {
     flex-direction: column;
     align-items: center;
@@ -640,4 +650,4 @@ section {
   .enviar-button button a {
     font-size: 13px;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=estilos.css.map */
